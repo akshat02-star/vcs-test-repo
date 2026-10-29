@@ -1,0 +1,39 @@
+guid: b6e04043-d380-4f67-ac53-7af4a7f69d26
+obj_id: akshat-test-answer2-b6e04043
+answer:
+  name: akshat-test-answer2
+  tables:
+  - id: "TS: BI Server"
+    name: "TS: BI Server"
+  search_query: "[Impressions] [Latency (us)] [Postgres Latency (us)]"
+  answer_columns:
+  - name: Total Impressions
+  - name: Total Latency (us)
+  - name: Total Postgres Latency (us)
+  table:
+    table_columns:
+    - column_id: Total Impressions
+      show_headline: false
+    - column_id: Total Latency (us)
+      show_headline: false
+    - column_id: Total Postgres Latency (us)
+      show_headline: false
+    ordered_column_ids:
+    - Total Impressions
+    - Total Latency (us)
+    - Total Postgres Latency (us)
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: KPI
+    chart_columns:
+    - column_id: Total Impressions
+    - column_id: Total Latency (us)
+    - column_id: Total Postgres Latency (us)
+    axis_configs:
+    - "y":
+      - Total Impressions
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showChange\": true,\"showChangeAs\": \"PERCENT\",\"changeInterpretation\": \"UPWARD_IS_GOOD\",\"linkChangeColorsWithAnomaly\": true,\"showAnalyseChangeCta\": true}},\"columnProperties\": [{\"columnId\": \"Total Impressions\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Total Latency (us)\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Total Postgres Latency (us)\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Measure names\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Measure values\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}}],\"axisProperties\": [{\"id\": \"eebd5542-8f6d-47fe-a9cb-220462bd6737\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Impressions\"],\"isOpposite\": false}},{\"id\": \"8afab5f5-d251-45b8-a661-e18875c22a61\",\"properties\": {\"axisType\": \"X\"}}]}"
+  display_mode: TABLE_MODE
+  dynamic_name: akshat-test-answer2
