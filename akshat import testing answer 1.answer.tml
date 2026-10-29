@@ -1,0 +1,92 @@
+answer:
+  name: akshat import testing answer 1
+  tables:
+  - id: "TS: BI Server"
+    name: "TS: BI Server"
+  search_query: "[Impressions] [User] [Pid] [Latency (us)] [Postgres Latency (us)] [Postgres Queries] [Response Size] [Visualization Count - Deprecated] [Answer Book GUID] [Answer Book Name]"
+  answer_columns:
+  - name: Answer Book GUID
+  - name: Answer Book Name
+  - name: Pid
+  - name: Total Impressions
+  - name: Total Latency (us)
+  - name: Total Postgres Latency (us)
+  - name: Total Postgres Queries
+  - name: Total Response Size
+  - name: Total Visualization Count - Deprecated
+  - name: User
+  table:
+    table_columns:
+    - column_id: Answer Book GUID
+      show_headline: false
+    - column_id: Answer Book Name
+      show_headline: false
+    - column_id: Pid
+      show_headline: false
+    - column_id: Total Impressions
+      show_headline: false
+    - column_id: Total Latency (us)
+      show_headline: false
+    - column_id: Total Postgres Latency (us)
+      show_headline: false
+    - column_id: Total Postgres Queries
+      show_headline: false
+    - column_id: Total Response Size
+      show_headline: false
+    - column_id: Total Visualization Count - Deprecated
+      show_headline: false
+    - column_id: User
+      show_headline: false
+    ordered_column_ids:
+    - User
+    - Pid
+    - Answer Book GUID
+    - Answer Book Name
+    - Total Impressions
+    - Total Latency (us)
+    - Total Postgres Latency (us)
+    - Total Postgres Queries
+    - Total Response Size
+    - Total Visualization Count - Deprecated
+    client_state: ""
+  chart:
+    type: ADVANCED_PIVOT_TABLE
+    chart_columns:
+    - column_id: Answer Book GUID
+    - column_id: Answer Book Name
+    - column_id: Measure names
+      type: MEASURE_NAMES
+    - column_id: Pid
+    - column_id: Total Impressions
+    - column_id: Total Latency (us)
+    - column_id: Total Postgres Latency (us)
+    - column_id: Total Postgres Queries
+    - column_id: Total Response Size
+    - column_id: Total Visualization Count - Deprecated
+    - column_id: User
+    client_state: ""
+    custom_chart_config:
+    - key: basic
+      dimensions:
+      - key: rows
+        columns:
+        - Pid
+        mode: COLUMN_DRIVEN
+      - key: values
+        columns:
+        - Total Impressions
+        - Total Latency (us)
+        - Total Postgres Latency (us)
+        - Total Postgres Queries
+        - Total Response Size
+        - Total Visualization Count - Deprecated
+        mode: COLUMN_DRIVEN
+      - key: columns
+        columns:
+        - Measure names
+        mode: COLUMN_DRIVEN
+      - key: split-by-color
+        mode: COLUMN_DRIVEN
+    custom_visual_props: "{\"chartSettingsVersion\":\"1\"}"
+  display_mode: TABLE_MODE
+  dynamic_name: akshat import testing answer 1
