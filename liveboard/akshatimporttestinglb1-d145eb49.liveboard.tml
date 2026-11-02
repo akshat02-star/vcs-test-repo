@@ -1,6 +1,7 @@
 guid: d145eb49-209b-400f-9ae5-4004db406385
 obj_id: akshatimporttestinglb1-d145eb49
-liveboard:
+
+ liveboard:
   name: akshat import testing lb 1
   visualizations:
   - id: Viz_1
