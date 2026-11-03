@@ -22,6 +22,18 @@ table:
       index_type: DONT_INDEX
     db_column_properties:
       data_type: INT64
+  rls_rules:
+    tables:
+    - name: AKSHAT_TEST
+      obj_id: AKSHAT_TEST-8162cb17
+    table_paths:
+    - id: AKSHAT_TEST_1
+      table: AKSHAT_TEST
+      column:
+      - NAME
+    rules:
+    - name: vcs_tv_rule
+      expr: "[AKSHAT_TEST_1::NAME] = ts_var ( vcs_test_var )"
   properties:
     spotter_config:
       is_spotter_enabled: true

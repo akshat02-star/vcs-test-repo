@@ -1,0 +1,44 @@
+obj_id: VCSTVTestAnswer-40d1bd46
+answer:
+  name: VCS TV Test Answer
+  tables:
+  - id: AKSHAT_TEST
+    name: AKSHAT_TEST
+    obj_id: AKSHAT_TEST-8162cb17
+  search_query: "[NAME] [SALARY]"
+  answer_columns:
+  - name: NAME
+  - name: Total SALARY
+  table:
+    table_columns:
+    - column_id: NAME
+      headline_aggregation: COUNT_DISTINCT
+    - column_id: Total SALARY
+      headline_aggregation: SUM
+    ordered_column_ids:
+    - NAME
+    - Total SALARY
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"NAME\",\"columnProperty\": {}},{\"columnId\": \"Total SALARY\",\"columnProperty\": {}}]}"
+  chart:
+    type: ADVANCED_DONUT
+    chart_columns:
+    - column_id: NAME
+    - column_id: Total SALARY
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"NAME\",\"columnProperty\": {}},{\"columnId\": \"Total SALARY\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"61cfa210-91d8-4ab4-a61a-529d63eac621\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total SALARY\"],\"isOpposite\": false}},{\"id\": \"5adb5cb1-0368-4e9e-a76b-08ce8a8eacd2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"NAME\"]}}]}"
+    custom_chart_config:
+    - key: basic
+      dimensions:
+      - key: x-axis
+        axes:
+        - type: FLAT
+          column: NAME
+        mode: AXIS_DRIVEN
+      - key: y-axis
+        axes:
+        - type: FLAT
+          column: Total SALARY
+        mode: AXIS_DRIVEN
+    custom_visual_props: "{\"chartSettingsVersion\":\"1\"}"
+  display_mode: TABLE_MODE
