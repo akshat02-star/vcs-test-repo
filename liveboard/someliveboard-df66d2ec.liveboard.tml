@@ -1,0 +1,57 @@
+obj_id: someliveboard-df66d2ec
+liveboard:
+  name: some liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: some answer
+      tables:
+      - id: "TS: BI Server"
+        name: "TS: BI Server"
+      search_query: "[Database Latency (us)] [Answer Book GUID]"
+      answer_columns:
+      - name: Answer Book GUID
+      - name: Total Database Latency (us)
+      table:
+        table_columns:
+        - column_id: Answer Book GUID
+          show_headline: false
+        - column_id: Total Database Latency (us)
+          show_headline: false
+        ordered_column_ids:
+        - Answer Book GUID
+        - Total Database Latency (us)
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: ADVANCED_COLUMN
+        chart_columns:
+        - column_id: Answer Book GUID
+        - column_id: Total Database Latency (us)
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showChange\": true,\"showChangeAs\": \"PERCENT\",\"changeInterpretation\": \"UPWARD_IS_GOOD\",\"linkChangeColorsWithAnomaly\": true,\"showAnalyseChangeCta\": true}},\"columnProperties\": [{\"columnId\": \"Answer Book GUID\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Total Database Latency (us)\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Measure names\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Measure values\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}}],\"axisProperties\": [{\"id\": \"847d13ae-053b-4f88-8006-e66c4e47f92a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Database Latency (us)\"],\"isOpposite\": false}},{\"id\": \"933cb1e9-9841-4f8a-858a-bd8dd7278fe9\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Answer Book GUID\"]}}]}"
+        custom_chart_config:
+        - key: basic
+          dimensions:
+          - key: x-axis
+            axes:
+            - type: FLAT
+              column: Answer Book GUID
+            mode: AXIS_DRIVEN
+          - key: y-axis
+            axes:
+            - type: FLAT
+              column: Total Database Latency (us)
+            mode: AXIS_DRIVEN
+          - key: slice-with-color
+            mode: AXIS_DRIVEN
+          - key: trellis-by
+            mode: AXIS_DRIVEN
+        custom_visual_props: "{\"chartSettingsVersion\":\"1\"}"
+        viz_style: "{}"
+      display_mode: CHART_MODE
+      dynamic_name: some answer
+    viz_guid: 1fc8e394-84b9-4f48-a419-bf65bf0c906b
+  layout:
+    tiles:
+    - visualization_id: Viz_1
