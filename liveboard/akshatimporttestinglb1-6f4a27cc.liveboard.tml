@@ -1,0 +1,123 @@
+obj_id: akshatimporttestinglb1-6f4a27cc
+liveboard:
+  name: Copy of akshat import testing lb 1
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: akshat import testing answer 1
+      tables:
+      - id: "TS: BI Server"
+        name: "TS: BI Server"
+      search_query: "[Impressions] [User] [Pid] [Latency (us)] [Postgres Latency (us)] [Postgres Queries] [Response Size] [Visualization Count - Deprecated] [Answer Book GUID] [Answer Book Name]"
+      answer_columns:
+      - name: Answer Book GUID
+      - name: Answer Book Name
+      - name: Pid
+      - name: Total Impressions
+      - name: Total Latency (us)
+      - name: Total Postgres Latency (us)
+      - name: Total Postgres Queries
+      - name: Total Response Size
+      - name: Total Visualization Count - Deprecated
+      - name: User
+      table:
+        table_columns:
+        - column_id: Answer Book GUID
+          show_headline: false
+        - column_id: Answer Book Name
+          show_headline: false
+        - column_id: Pid
+          show_headline: false
+        - column_id: Total Impressions
+          show_headline: false
+        - column_id: Total Latency (us)
+          show_headline: false
+        - column_id: Total Postgres Latency (us)
+          show_headline: false
+        - column_id: Total Postgres Queries
+          show_headline: false
+        - column_id: Total Response Size
+          show_headline: false
+        - column_id: Total Visualization Count - Deprecated
+          show_headline: false
+        - column_id: User
+          show_headline: false
+        ordered_column_ids:
+        - User
+        - Pid
+        - Answer Book GUID
+        - Answer Book Name
+        - Total Impressions
+        - Total Latency (us)
+        - Total Postgres Latency (us)
+        - Total Postgres Queries
+        - Total Response Size
+        - Total Visualization Count - Deprecated
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"User\",\"columnProperty\": {}},{\"columnId\": \"Pid\",\"columnProperty\": {}},{\"columnId\": \"Answer Book GUID\",\"columnProperty\": {}},{\"columnId\": \"Answer Book Name\",\"columnProperty\": {}},{\"columnId\": \"Total Impressions\",\"columnProperty\": {}},{\"columnId\": \"Total Latency (us)\",\"columnProperty\": {}},{\"columnId\": \"Total Postgres Latency (us)\",\"columnProperty\": {}},{\"columnId\": \"Total Postgres Queries\",\"columnProperty\": {}},{\"columnId\": \"Total Response Size\",\"columnProperty\": {}},{\"columnId\": \"Total Visualization Count - Deprecated\",\"columnProperty\": {}}]}"
+      chart:
+        type: ADVANCED_PIVOT_TABLE
+        chart_columns:
+        - column_id: Answer Book GUID
+        - column_id: Answer Book Name
+        - column_id: Measure names
+          type: MEASURE_NAMES
+        - column_id: Pid
+        - column_id: Total Impressions
+        - column_id: Total Latency (us)
+        - column_id: Total Postgres Latency (us)
+        - column_id: Total Postgres Queries
+        - column_id: Total Response Size
+        - column_id: Total Visualization Count - Deprecated
+        - column_id: User
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Impressions\",\"columnProperty\": {}},{\"columnId\": \"Answer Book GUID\",\"columnProperty\": {}},{\"columnId\": \"Total Postgres Queries\",\"columnProperty\": {}},{\"columnId\": \"Answer Book Name\",\"columnProperty\": {}},{\"columnId\": \"Total Latency (us)\",\"columnProperty\": {}},{\"columnId\": \"Total Response Size\",\"columnProperty\": {}},{\"columnId\": \"Pid\",\"columnProperty\": {}},{\"columnId\": \"Total Postgres Latency (us)\",\"columnProperty\": {}},{\"columnId\": \"User\",\"columnProperty\": {}},{\"columnId\": \"Total Visualization Count - Deprecated\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"d0609ded-b5a9-4abf-bdfc-5203d91948ec\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Impressions\"],\"isOpposite\": false}},{\"id\": \"8427e09f-88ca-429a-958a-bfbc7a86e76b\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Latency (us)\"],\"isOpposite\": true}},{\"id\": \"6a859349-d768-45fb-931c-84a2d9ae34b2\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Postgres Latency (us)\"],\"isOpposite\": true}},{\"id\": \"8a1f6f1e-089a-4257-b07b-9ca42165ec34\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Postgres Queries\"],\"isOpposite\": true}},{\"id\": \"4610b5fb-ceff-4a8d-96fe-cf9d7556a98f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Response Size\"],\"isOpposite\": true}},{\"id\": \"c26c328e-636e-495a-91f0-eb01a262325e\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Visualization Count - Deprecated\"],\"isOpposite\": true}},{\"id\": \"cfcef44f-83da-4288-a555-473f994540fe\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Pid\"]}}]}"
+        custom_chart_config:
+        - key: basic
+          dimensions:
+          - key: rows
+            columns:
+            - Pid
+            mode: COLUMN_DRIVEN
+          - key: values
+            columns:
+            - Total Impressions
+            - Total Latency (us)
+            - Total Postgres Latency (us)
+            - Total Postgres Queries
+            - Total Response Size
+            - Total Visualization Count - Deprecated
+            mode: COLUMN_DRIVEN
+          - key: columns
+            columns:
+            - Measure names
+            mode: COLUMN_DRIVEN
+          - key: split-by-color
+            mode: COLUMN_DRIVEN
+        custom_visual_props: "{\"chartSettingsVersion\":\"1\"}"
+      display_mode: TABLE_MODE
+      dynamic_name: akshat import testing answer 1
+    viz_guid: d4131acd-1696-41f2-a193-97d3bc25e270
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      x: 0
+      "y": 0
+      height: 8
+      width: 12
+  style:
+    style_properties:
+    - name: lb_border_type
+      value: CURVED
+    - name: lb_brand_color
+      value: LBC_A
+    - name: hide_group_title
+      value: "false"
+    - name: hide_group_description
+      value: "true"
+    - name: hide_group_tile_description
+      value: "false"
+    - name: hide_tile_description
+      value: "false"
+    - name: kpi_hero_font_size
+      value: M
