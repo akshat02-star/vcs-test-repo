@@ -1,0 +1,67 @@
+obj_id: newanswerforcommit-de52eb03
+answer:
+  name: new answer for commit
+  tables:
+  - id: "TS: BI Server"
+    name: "TS: BI Server"
+  search_query: "[Impressions] [URL] [Pid] [Hidden] [Timestamp] [Timestamp].monthly"
+  answer_columns:
+  - name: Hidden
+  - name: Month(Timestamp)
+  - name: Pid
+  - name: Total Impressions
+  - name: URL
+  table:
+    table_columns:
+    - column_id: Hidden
+      show_headline: false
+    - column_id: Month(Timestamp)
+      show_headline: false
+    - column_id: Pid
+      show_headline: false
+    - column_id: Total Impressions
+      show_headline: false
+    - column_id: URL
+      show_headline: false
+    ordered_column_ids:
+    - URL
+    - Pid
+    - Hidden
+    - Month(Timestamp)
+    - Total Impressions
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: ADVANCED_PIVOT_TABLE
+    chart_columns:
+    - column_id: Hidden
+    - column_id: Measure names
+      type: MEASURE_NAMES
+    - column_id: Month(Timestamp)
+    - column_id: Pid
+    - column_id: Total Impressions
+    - column_id: URL
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}},\"kpiDisplayProperties\": {\"showChange\": true,\"showChangeAs\": \"PERCENT\",\"changeInterpretation\": \"UPWARD_IS_GOOD\",\"linkChangeColorsWithAnomaly\": true,\"showAnalyseChangeCta\": true}},\"columnProperties\": [{\"columnId\": \"URL\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Pid\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Hidden\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Month(Timestamp)\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Total Impressions\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Measure names\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}},{\"columnId\": \"Measure values\",\"columnProperty\": {\"kpiColumnProperties\": {\"showSparkline\": true,\"showComparisonDate\": true,\"showCurrentDateLabel\": true,\"showPreviousDateLabel\": true,\"showPreviousValue\": true}}}],\"axisProperties\": [{\"id\": \"3555adb5-aefe-48e1-9505-b132e9a31586\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Impressions\"],\"isOpposite\": false}},{\"id\": \"09633f23-94e5-45ca-af18-b497c442e04a\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Timestamp)\",\"Pid\",\"Hidden\"]}}]}"
+    custom_chart_config:
+    - key: basic
+      dimensions:
+      - key: rows
+        columns:
+        - Pid
+        mode: COLUMN_DRIVEN
+      - key: values
+        columns:
+        - Total Impressions
+        mode: COLUMN_DRIVEN
+      - key: columns
+        columns:
+        - Month(Timestamp)
+        - Measure names
+        mode: COLUMN_DRIVEN
+      - key: split-by-color
+        mode: COLUMN_DRIVEN
+    custom_visual_props: "{\"chartSettingsVersion\":\"1\"}"
+    viz_style: "{}"
+  display_mode: CHART_MODE
+  dynamic_name: new answer for commit
